@@ -374,6 +374,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TwoDoorRoom_medium
       objectReference: {fileID: 0}
+    - target: {fileID: 7036951135963102912, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7903565416150710720, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
       propertyPath: m_RootOrder
       value: 5
