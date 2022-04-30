@@ -71,11 +71,12 @@ crashlytics-build.properties
 ## ---------------- ##
 
 # project stuff
-WWiseProject/.cache/
-WWiseProject/*.prof
-WwiseProject/*_WwiseProject.*.validationcache
-WwiseProject/*_WwiseProject.*.wsettings
-WwiseProject/**/*.akd
+WwiseProj/NGJ WwiseProject/.cache/
+WwiseProj/NGJ WwiseProject/*.prof
+WwiseProj/NGJ WwiseProject/*_WwiseProject.*.validationcache
+WwiseProj/NGJ WwiseProject/*_WwiseProject.*.wsettings
+WwiseProj/NGJ WwiseProject/**/*.akd
+
 
 # build stuff (unsure?)
 # Assets/Wwise/Deployment/Plugins/Windows/**/*.meta

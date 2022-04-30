@@ -11,6 +11,16 @@
 
 namespace AK
 {
+    namespace EVENTS
+    {
+        static const AkUniqueID TEST = 3157003241U;
+    } // namespace EVENTS
+
+    namespace GAME_PARAMETERS
+    {
+        static const AkUniqueID TEST = 3157003241U;
+    } // namespace GAME_PARAMETERS
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

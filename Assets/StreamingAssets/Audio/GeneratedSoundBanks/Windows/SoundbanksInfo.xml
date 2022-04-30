@@ -11,15 +11,18 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="837375629">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1339597777">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="2249561840">
+		<SoundBank Id="1661994096" Language="SFX" Hash="2632450529">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
