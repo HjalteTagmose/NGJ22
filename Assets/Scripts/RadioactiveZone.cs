@@ -9,12 +9,16 @@ public class RadioactiveZone : MonoBehaviour
     public float strength = 1;
     public float debugRadiation;
 
+    public AK.Wwise.Event geigerCounter;
+    public AK.Wwise.RTPC geigerRTPC;
+
     private SphereCollider col;
 
     void Start()
     {
         col = GetComponent<SphereCollider>();
         col.isTrigger = true;
+        geigerCounter.Post(gameObject);
     }
 
     void OnTriggerStay(Collider other)
@@ -30,6 +34,7 @@ public class RadioactiveZone : MonoBehaviour
 
             debugRadiation = radiation;
             player.SetRadiation(radiation);
+            geigerRTPC.SetValue(gameObject, radiation);
         }
     }
 
