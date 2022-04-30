@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BASE_AMBIENCE_PLAY = 109592986U;
+        static const AkUniqueID GENERATOR_PLAY = 4275927813U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
 
