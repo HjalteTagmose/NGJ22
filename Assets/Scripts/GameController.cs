@@ -21,4 +21,9 @@ public class GameController : MonoBehaviour
         var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex);
     }
+
+    public void Quit()
+    {
+        Application.Quit();
+    }
 }
