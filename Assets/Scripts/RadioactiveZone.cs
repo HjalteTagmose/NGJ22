@@ -25,7 +25,7 @@ public class RadioactiveZone : MonoBehaviour
             float dist = Vector3.Distance(col.transform.position, player.transform.position);
             float invdist = col.radius - dist;
             float normalized = Mathf.Clamp01(invdist / col.radius * 2);
-            float radiation = normalized * strength;
+            float radiation = normalized * strength * 100;
 
             player.SetRadiation(radiation);
         }
