@@ -1,6 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{F5F0B685-5C11-4702-98DE-9D847D506881}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{F5F0B685-5C11-4702-98DE-9D847D506881}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{F5F0B685-5C11-4702-98DE-9D847D506881}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="PT_Sound" ID="{D2969562-AA70-4ECD-90F0-0D80A93D0BAC}" ShortID="1043868636">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E35F27C2-E4C5-4FCE-8597-93ED032A2EF5}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00E8AC68-7619-4A58-9DC0-704B54C41B30}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="PT_Motor_Loop_01" ID="{EBD22573-0581-4FE7-BF10-F13BC3773C59}">
+							<Language>SFX</Language>
+							<AudioFile>PT_Motor_Loop_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="46403890"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="PT_Motor_Loop_01" ID="{EBD22573-0581-4FE7-BF10-F13BC3773C59}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

@@ -1,3 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	3157003241	Test			\Default Work Unit\Test	
 
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	46403890	PT_Sound	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\PT_Motor_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PT_Sound		10258420
+

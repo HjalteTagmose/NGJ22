@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>S:\Dev\NGJ22\WwiseProj\NGJ WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>S:\Dev\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>S:\Dev\NGJ22\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/jeppe/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Mac HDD 1/Dev/Unity Projects/NGJ22/WwiseProj/NGJ WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/jeppe/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Mac HDD 1/Dev/Unity Projects/NGJ22/WwiseProj/NGJ WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/jeppe/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Mac HDD 1/Dev/Unity Projects/NGJ22/Assets/StreamingAssets/Audio/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>S:\Dev\NGJ22\WwiseProj\NGJ WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/jeppe/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/z:/Volumes/Mac HDD 1/Dev/Unity Projects/NGJ22/WwiseProj/NGJ WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,12 +16,19 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="2632450529">
+		<SoundBank Id="1661994096" Language="SFX" Hash="880674102">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="46403890" Language="SFX">
+							<ShortName>PT_Motor_Loop_01.wav</ShortName>
+							<Path>SFX/PT_Motor_Loop_01_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>

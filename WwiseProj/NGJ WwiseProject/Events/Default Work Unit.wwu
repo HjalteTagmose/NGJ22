@@ -3,7 +3,17 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Test" ID="{217489E5-BDB7-44F1-A6E1-5E008816EF58}"/>
+				<Event Name="Test" ID="{217489E5-BDB7-44F1-A6E1-5E008816EF58}">
+					<ChildrenList>
+						<Action Name="" ID="{01FA2AD2-190E-4896-AA34-BFACEDA93A61}" ShortID="789153877">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PT_Sound" ID="{D2969562-AA70-4ECD-90F0-0D80A93D0BAC}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
