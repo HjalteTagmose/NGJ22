@@ -149,7 +149,7 @@
 						<Action Name="" ID="{F5B19FD9-724B-43D9-ABA9-C9A68F8F64DA}" ShortID="628650176">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Player_Footsteps" ID="{23D9F199-928F-4C97-B281-D07DA0FF678E}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+									<ObjectRef Name="Player_Step" ID="{39D195FE-8754-4D5D-A443-B79FE56C31BC}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
