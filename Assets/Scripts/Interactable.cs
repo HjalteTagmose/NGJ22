@@ -21,15 +21,7 @@ public class Interactable : MonoBehaviour
 
     void Update()
     {
-        if (isHover)
-        {
-            outline.OutlineWidth = outlineWidth;
-        }
-        else
-        {
-            outline.OutlineWidth = 0;
-        }
-
+        outline.OutlineWidth = isHover ? outlineWidth : 0;
         isHover = false;
     }
 

@@ -13,7 +13,12 @@ public class Player : MonoBehaviour
     
     void Update()
     {
-        bool success = Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit);        
+        Interaction();
+    }
+
+    void Interaction()
+    {
+        bool success = Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit);
         if (success)
         {
             var interactable = hit.transform.GetComponent<Interactable>();
