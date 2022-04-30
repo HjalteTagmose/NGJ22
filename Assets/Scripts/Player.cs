@@ -8,8 +8,6 @@ public class Player : MonoBehaviour
     public float maxInteractLength = 10;
     public float radioactiveTolerance = 100;
 
-    public GameObject soundObj;
-    
     private float radiation;
     private Camera cam;
     
@@ -47,12 +45,6 @@ public class Player : MonoBehaviour
     {
         this.radiation = radiation;
         if (radiation > radioactiveTolerance)
-            Die();
-    }
-
-    private void Die()
-    {
-        print("oh no im dead");
-        GameController.Instance.Restart();
+            GameController.Instance.GameOver("You died of radiation exposure!");
     }
 }

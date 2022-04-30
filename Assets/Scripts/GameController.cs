@@ -1,3 +1,4 @@
+using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,23 @@ public class GameController : MonoBehaviour
         get
         {
             if (instance == null)
-                instance = new GameController();
+                instance = FindObjectOfType<GameController>();
             return instance;
         }
+    }
+
+    public GameObject gameOverMenu;
+
+    private void Start()
+    {
+        
+    }
+
+    public void GameOver(string msg)
+    {
+        gameOverMenu.SetActive(true);
+        Cursor.lockState = CursorLockMode.Confined;
+        FindObjectOfType<StarterAssetsInputs>().Stop();
     }
 
     public void Restart()
