@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{1275D492-8203-441C-B558-88CDAC791A13}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{1275D492-8203-441C-B558-88CDAC791A13}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{1275D492-8203-441C-B558-88CDAC791A13}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="SoundCaster" ID="{948105C8-8F55-43F8-8C3F-B5483DE1B15E}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Generator_Play" ID="{25CC7A07-93B2-418A-99C2-F6973F2A10F1}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Generator_Stop" ID="{B604E3C5-221F-4521-B176-3EB9E79D09CD}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="RadioactiveLevel" ID="{8B77EE35-E3D8-42C0-80C0-DC4711DF2A28}"/>
+							<Value>59.4972067039106</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Test" ID="{49056E8F-2283-44E4-A831-1D98813B7C22}"/>
+							<Value>50</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>

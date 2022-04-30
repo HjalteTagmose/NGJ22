@@ -1316,6 +1316,36 @@
 								</BlendTrack>
 							</BlendTrackList>
 						</BlendContainer>
+						<Sound Name="LevelEnv_Engine_Handle_01" ID="{0ADF6CF4-44A8-41C6-B76C-1C72BAE88BE1}" ShortID="858144447">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E35F27C2-E4C5-4FCE-8597-93ED032A2EF5}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00E8AC68-7619-4A58-9DC0-704B54C41B30}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="LevelEnv_Engine_Handle_01" ID="{31E9071D-5726-4ACB-8CB5-86438FA7ABC4}">
+									<Language>SFX</Language>
+									<AudioFile>LevelEnv_Engine_Handle_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="311065688"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="LevelEnv_Engine_Handle_01" ID="{31E9071D-5726-4ACB-8CB5-86438FA7ABC4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>

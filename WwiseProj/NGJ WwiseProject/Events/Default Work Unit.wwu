@@ -101,20 +101,13 @@
 				</Event>
 				<Event Name="Generator_Play" ID="{25CC7A07-93B2-418A-99C2-F6973F2A10F1}">
 					<ChildrenList>
-						<Action Name="" ID="{66274599-6B10-4EAB-8E28-C901EEE7FEDA}" ShortID="80254837">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{58124799-1C15-45B8-837B-EFE600B8787C}" ShortID="477143866">
+						<Action Name="" ID="{E5093298-5BC7-47EA-8DBB-4CB0917A532E}" ShortID="182371979">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="36"/>
 								<Property Name="SeekPercent" Type="Real64" Value="50">
 									<ModifierList>
 										<ModifierInfo>
-											<Modifier Name="" ID="{2B4512D8-1500-41CD-9FBC-0F40684CEE7B}">
+											<Modifier Name="" ID="{9BB3BCA3-B774-4FA1-8240-686A55790639}">
 												<PropertyList>
 													<Property Name="Enabled" Type="bool" Value="True"/>
 													<Property Name="Max" Type="Real64" Value="76"/>
@@ -125,6 +118,23 @@
 									</ModifierList>
 								</Property>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2A435434-9BA7-4E85-80DC-E69B50E2D2C6}" ShortID="485332831">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="18"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76873F86-C01D-477B-9876-387D0F342870}" ShortID="927287580">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
@@ -150,6 +160,40 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Player_Step" ID="{39D195FE-8754-4D5D-A443-B79FE56C31BC}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Generator_Stop" ID="{B604E3C5-221F-4521-B176-3EB9E79D09CD}">
+					<ChildrenList>
+						<Action Name="" ID="{A8E9EEFB-EF5D-4AB9-B600-B7D644AE8B11}" ShortID="766259269">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="13"/>
+								<Property Name="FadeTime" Type="Real64" Value="3.5"/>
+								<Property Name="Pitch" Type="int32" Value="-3490"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6E35475D-7211-469F-B20F-E474988303CF}" ShortID="733806337">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="4"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Generator_01" ID="{B81D76BF-A825-498A-895A-7C802DCDDCAF}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FDB51A21-2691-4D51-8786-F53DC85D891F}" ShortID="769200926">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Engine_Handle_01" ID="{0ADF6CF4-44A8-41C6-B76C-1C72BAE88BE1}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
