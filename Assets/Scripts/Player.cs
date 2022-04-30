@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public float maxInteractLength = 10;
     private Camera cam;
 
     void Start()
@@ -18,7 +19,10 @@ public class Player : MonoBehaviour
 
     void Interaction()
     {
-        bool success = Physics.Raycast(cam.transform.position, cam.transform.forward, out RaycastHit hit);
+        bool success = Physics.Raycast(
+            cam.transform.position, cam.transform.forward, 
+            out RaycastHit hit, maxInteractLength);
+
         if (success)
         {
             var interactable = hit.transform.GetComponent<Interactable>();
