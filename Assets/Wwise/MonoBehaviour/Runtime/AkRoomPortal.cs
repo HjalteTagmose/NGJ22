@@ -72,7 +72,7 @@ public class AkRoomPortal : AkTriggerHandler
 		}
 		else
 		{
-			UnityEngine.Debug.LogError(name + " has identical front and back rooms. It will not be sent to Spatial Audio.");
+			UnityEngine.Debug.LogError(name + " has identical front and back rooms. It will not be sent to Spatial Audio.",gameObject);
 			if (portalSet)
 				AkSoundEngine.RemovePortal(GetID());
 			portalSet = false;

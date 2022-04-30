@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2916195224837252354}
   - component: {fileID: 771018851898813650}
   - component: {fileID: 7229779025305516568}
+  - component: {fileID: 2455663932288565357}
   m_Layer: 0
   m_Name: WwiseRoom
   m_TagString: Untagged
@@ -72,6 +73,19 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   roomToneAuxSend: 0
+--- !u!114 &2455663932288565357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6373159387252443846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc50c998145634f398febfee2a0e5ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 255, b: 255, a: 0.3}
 --- !u!1 &6426592576199693974
 GameObject:
   m_ObjectHideFlags: 0
