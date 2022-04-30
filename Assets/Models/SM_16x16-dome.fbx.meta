@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 701c7b73e3c964f46b6ff84375a82c10
-ModelImporter:
-  serializedVersion: 21202
-  internalIDToNameTable: []
-  externalObjects: {}
-=======
-guid: cfc7fea87facfab478384377753e373b
 ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable: []
@@ -21,7 +14,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: M_Trim01
     second: {fileID: 2100000, guid: 5be3b201bab8cb14f952c0c2a282b0fa, type: 2}
->>>>>>> Stashed changes
   materials:
     materialImportMode: 2
     materialName: 0
