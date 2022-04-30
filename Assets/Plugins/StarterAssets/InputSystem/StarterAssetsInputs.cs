@@ -20,50 +20,61 @@ namespace StarterAssets
 		public bool cursorLocked = true;
 		public bool cursorInputForLook = true;
 
+		[HideInInspector]
+		public bool canControl = true;
+
+		public void Stop()
+        {
+			canControl = false;
+			move = Vector2.zero;
+			jump = false;
+			sprint = false;
+		}
+
 #if ENABLE_INPUT_SYSTEM && STARTER_ASSETS_PACKAGES_CHECKED
 		public void OnMove(InputValue value)
 		{
-			MoveInput(value.Get<Vector2>());
+			if (canControl) MoveInput(value.Get<Vector2>());
 		}
 
 		public void OnLook(InputValue value)
 		{
 			if(cursorInputForLook)
 			{
-				LookInput(value.Get<Vector2>());
+				if (canControl) LookInput(value.Get<Vector2>());
 			}
 		}
 
 		public void OnJump(InputValue value)
 		{
-			JumpInput(value.isPressed);
+			if (canControl) JumpInput(value.isPressed);
 		}
 
 		public void OnSprint(InputValue value)
 		{
-			SprintInput(value.isPressed);
+			if (canControl) SprintInput(value.isPressed);
 		}
 #endif
 
 
 		public void MoveInput(Vector2 newMoveDirection)
 		{
-			move = newMoveDirection;
+			if (canControl) move = newMoveDirection;
 		} 
 
 		public void LookInput(Vector2 newLookDirection)
 		{
-			look = newLookDirection;
+			if (canControl) look = newLookDirection;
 		}
 
 		public void JumpInput(bool newJumpState)
 		{
-			jump = newJumpState;
+			if (canControl) jump = newJumpState;
 		}
 
 		public void SprintInput(bool newSprintState)
 		{
-			sprint = newSprintState;
+			if (canControl) sprint = newSprintState;
 		}
 		
 		private void OnApplicationFocus(bool hasFocus)
