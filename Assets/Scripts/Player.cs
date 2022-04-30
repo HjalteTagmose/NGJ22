@@ -29,6 +29,7 @@ public class Player : MonoBehaviour
 
         if (success)
         {
+            Debug.Log("HIT: " + hit.transform.name, hit.transform);
             var interactable = hit.transform.GetComponent<Interactable>();
             if (interactable != null)
             {
