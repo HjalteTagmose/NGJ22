@@ -4,6 +4,12 @@
 		<WorkUnit Name="Default Work Unit" ID="{F2C32F32-742A-4F9A-9AD8-FA8D430B8447}" PersistMode="Standalone">
 			<ChildrenList>
 				<GameParameter Name="Test" ID="{49056E8F-2283-44E4-A831-1D98813B7C22}"/>
+				<GameParameter Name="RadioactiveLevel" ID="{8B77EE35-E3D8-42C0-80C0-DC4711DF2A28}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

@@ -15,11 +15,13 @@ namespace AK
     {
         static const AkUniqueID BASE_AMBIENCE_PLAY = 109592986U;
         static const AkUniqueID GENERATOR_PLAY = 4275927813U;
+        static const AkUniqueID PLAYER_RADIATION = 3228222034U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
     {
+        static const AkUniqueID RADIOACTIVELEVEL = 3880108918U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace GAME_PARAMETERS
 
@@ -33,6 +35,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID REVERB = 348963605U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {
