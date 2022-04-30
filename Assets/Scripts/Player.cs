@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,8 +6,11 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float maxInteractLength = 10;
-    private Camera cam;
+    public float radioactiveTolerance = 1;
 
+    private float radiation;
+    private Camera cam;
+    
     void Start()
     {
         cam = Camera.main;    
@@ -34,6 +38,16 @@ public class Player : MonoBehaviour
                     interactable.Interact();
                 }
             }
+        }
+    }
+
+    public void SetRadiation(float radiation)
+    {
+        this.radiation = radiation;
+
+        if (radiation > radioactiveTolerance)
+        {
+            print("DEAD");
         }
     }
 }
