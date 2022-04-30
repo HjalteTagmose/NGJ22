@@ -4117,6 +4117,7 @@ GameObject:
   - component: {fileID: 7597095370456255691}
   - component: {fileID: 6007188856038722697}
   - component: {fileID: 8017506396105832644}
+  - component: {fileID: 2516219639706804554}
   m_Layer: 0
   m_Name: WwiseRoom
   m_TagString: Untagged
@@ -4132,8 +4133,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6294543853040118951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.89, y: 1.73, z: 6.11}
-  m_LocalScale: {x: 12.711875, y: 4.3625, z: 11.618054}
+  m_LocalPosition: {x: -6.36, y: 1.73, z: 8.24}
+  m_LocalScale: {x: 12.711875, y: 4.3625, z: 15.684374}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 585459363597498320}
@@ -4178,6 +4179,19 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 0}
   roomToneAuxSend: 0
+--- !u!114 &2516219639706804554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294543853040118951}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc50c998145634f398febfee2a0e5ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 0, g: 255, b: 255, a: 0.3}
 --- !u!1 &6295004168226426243
 GameObject:
   m_ObjectHideFlags: 0

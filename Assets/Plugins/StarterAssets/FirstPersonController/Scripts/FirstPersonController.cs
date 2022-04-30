@@ -51,11 +51,20 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
+
+
+		[Header("Audio")] 
+		public float baseFootSpeed = 2.5f;
+		public float sprintFootSpeed = 2.5f;
+		public AK.Wwise.Event footStepSound; 
+		
+		private float footstepTimer = 0; 
+
 		// cinemachine
 		private float _cinemachineTargetPitch;
 
 		// player
-		private float _speed;
+		private float  _speed;
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
@@ -114,6 +123,7 @@ namespace StarterAssets
 		{
 			JumpAndGravity();
 			GroundedCheck();
+			HandleAudio(); 
 			Move();
 		}
 
@@ -196,6 +206,22 @@ namespace StarterAssets
 
 			// move the player
 			_controller.Move(inputDirection.normalized * (_speed * Time.deltaTime) + new Vector3(0.0f, _verticalVelocity, 0.0f) * Time.deltaTime);
+		}
+
+		private void HandleAudio()
+		{
+			if (!Grounded) return;
+			if (_input.move == Vector2.zero) return;
+			if (_speed <= 0.6f) return; 
+			
+
+			footstepTimer -= Time.deltaTime;
+			
+			if (footstepTimer <= 0 )
+			{
+				footStepSound.Post(gameObject);
+				footstepTimer = _input.sprint ? sprintFootSpeed : baseFootSpeed; 
+			}
 		}
 
 		private void JumpAndGravity()
