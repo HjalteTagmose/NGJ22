@@ -5,10 +5,7 @@ using UnityEngine;
 
 public class VisualiseCollider : MonoBehaviour
 {
-    public Color color = new Color(0,255,255,0.3f); 
-    
-    
-
+    public Color color = new Color(0,255,255,0.3f);
     private BoxCollider _collider; 
     private void OnDrawGizmos()
     {
