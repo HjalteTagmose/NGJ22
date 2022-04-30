@@ -4,6 +4,8 @@
 		<UserProjectSettings Name="" ID="{FCFDA59E-E05E-422C-8C99-C5FAFCCF3EC6}">
 			<PropertyList>
 				<Property Name="Event Action List\{217489E5-BDB7-44F1-A6E1-5E008816EF58}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{25CC7A07-93B2-418A-99C2-F6973F2A10F1}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{66A6AD25-6812-42A4-87C1-EDC58EC55FBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>
@@ -27,8 +29,8 @@
 				<Property Name="MeterView\MeterMode1Viewpoint3" Type="int32" Value="0"/>
 				<Property Name="OverrideCacheFolder\Active" Type="bool" Value="False"/>
 				<Property Name="OverrideCacheFolder\Path" Type="string" Value=".cache"/>
-				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="False"/>
-				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Originals"/>
+				<Property Name="OverrideOriginalFolder\Active" Type="bool" Value="True"/>
+				<Property Name="OverrideOriginalFolder\Path" Type="string" Value="Y:\Desktop\Originals"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

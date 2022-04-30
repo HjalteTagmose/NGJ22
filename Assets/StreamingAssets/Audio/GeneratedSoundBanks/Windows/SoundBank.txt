@@ -1,6 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
+	109592986	Base_Ambience_Play			\Default Work Unit\Base_Ambience_Play	
 	3157003241	Test			\Default Work Unit\Test	
+	4275927813	Generator_Play			\Default Work Unit\Generator_Play	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	37583690	Amb_Drips_11	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_11_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_11		1152064
 	46403890	PT_Sound	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\PT_Motor_Loop_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\PT_Sound		10258420
+	199245326	Amb_Drips_06	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_06_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_06		960064
+	215920637	Amb_Drips_04	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_04		960064
+	271883726	Amb_Drips_07	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_07_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_07		1056064
+	276571848	LevelEnv_Generator_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\LevelEnv_Generator_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\LevelEnv_Generator_01		1913160
+	293926284	Base_Ambience_Scary_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Base_Ambience_Scary_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Base_Ambience_Scary_01		15744064
+	312858514	Amb_Steam_Hiss_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Steam_Hiss_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Hiss\Amb_Steam_Hiss_03		1510272
+	321209810	Scray_Scream_04	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Scray_Scream_04_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_04		2112064
+	332133400	BaseAmb_Bass_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\BaseAmb_Bass_01_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\BaseAmb_Bass_01		14592064
+	367543207	Amb_Drips_10	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_10_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_10		1235712
+	418849329	Amb_Drips_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_01		1344064
+	492961684	Amb_Drips_09	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_09_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_09		1056064
+	496538017	Scray_Scream_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Scray_Scream_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_03		1248064
+	715787057	Amb_Drips_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_03_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_03		1152064
+	724761262	Amb_Drips_02	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_02		960064
+	771504374	Amb_Drips_05	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_05_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_05		1056064
+	840757328	Scray_Scream_02	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Scray_Scream_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_02		1536064
+	983292096	Amb_Steam_Hiss_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Steam_Hiss_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Hiss\Amb_Steam_Hiss_01		1248064
+	1017681480	Amb_Steam_Hiss_02	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Steam_Hiss_02_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Hiss\Amb_Steam_Hiss_02		1246372
+	1049517778	Amb_Drips_08	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Amb_Drips_08_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_08		1728064
+	1052980291	Scray_Scream_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Windows\SFX\Scray_Scream_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_01		2784064
 
