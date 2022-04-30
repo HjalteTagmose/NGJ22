@@ -920,6 +920,7 @@ GameObject:
   m_Component:
   - component: {fileID: 632895497}
   - component: {fileID: 632895496}
+  - component: {fileID: 632895498}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -967,6 +968,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &632895498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632895495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9250d8d09b8c9ed49bdf9609253271c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bbcf2ee736bf70f4bb3e3e0ca3e2a438, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &750893034
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +2953,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxInteractLength: 10
   radioactiveTolerance: 100
+  geigerCounter:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0f19eae84882e9a47af9087e46480a42, type: 2}
+  geigerRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5e375b6dea6309344a1208b25cac2cfc, type: 2}
+--- !u!114 &7973230570736454302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 164088560942833772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a970b7a6b289e34dae744854027a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1001 &8501104299293600996
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2935,9 +2990,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8501104299675023112, guid: 842a6d89cd269ae478dfba763237beb7, type: 3}
+      propertyPath: m_Radius
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 8501104299675023113, guid: 842a6d89cd269ae478dfba763237beb7, type: 3}
       propertyPath: strength
-      value: 2
+      value: 1.205
       objectReference: {fileID: 0}
     - target: {fileID: 8501104299675023118, guid: 842a6d89cd269ae478dfba763237beb7, type: 3}
       propertyPath: m_Name
@@ -2953,7 +3012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8501104299675023119, guid: 842a6d89cd269ae478dfba763237beb7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.5
+      value: 0.94
       objectReference: {fileID: 0}
     - target: {fileID: 8501104299675023119, guid: 842a6d89cd269ae478dfba763237beb7, type: 3}
       propertyPath: m_LocalPosition.z

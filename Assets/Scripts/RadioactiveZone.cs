@@ -7,6 +7,7 @@ public class RadioactiveZone : MonoBehaviour
 {
     [Range(0.5f, 2f)]
     public float strength = 1;
+    public float debugRadiation;
 
     private SphereCollider col;
 
@@ -24,9 +25,10 @@ public class RadioactiveZone : MonoBehaviour
 
             float dist = Vector3.Distance(col.transform.position, player.transform.position);
             float invdist = col.radius - dist;
-            float normalized = Mathf.Clamp01(invdist / col.radius * 2);
+            float normalized = Mathf.Clamp01(invdist / col.radius);
             float radiation = normalized * strength * 100;
 
+            debugRadiation = radiation;
             player.SetRadiation(radiation);
         }
     }
