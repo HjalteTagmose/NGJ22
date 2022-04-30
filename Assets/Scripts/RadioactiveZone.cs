@@ -35,13 +35,15 @@ public class RadioactiveZone : MonoBehaviour
     {
         col = GetComponent<SphereCollider>();
 
-        var color = Color.red;
-        color.a = .5f;
-        
-        Gizmos.color = color;
+        var deathCol = Color.red;
+        var warningCol = new Color(1,.5f,0,.5f);
+        deathCol.a = .5f;
+
+        Gizmos.color = warningCol;
         Gizmos.DrawSphere(transform.position, col.radius);
 
         float deathDist = col.radius - col.radius / strength;
+        Gizmos.color = deathCol;
         Gizmos.DrawSphere(transform.position, deathDist > 0 ? deathDist : 0);
     }
 }
