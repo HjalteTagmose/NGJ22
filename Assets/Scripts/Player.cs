@@ -6,7 +6,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float maxInteractLength = 10;
-    public float radioactiveTolerance = 1;
+    public float radioactiveTolerance = 100;
 
     private float radiation;
     private Camera cam;
