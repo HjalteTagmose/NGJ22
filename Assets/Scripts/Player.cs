@@ -47,7 +47,13 @@ public class Player : MonoBehaviour
 
         if (radiation > radioactiveTolerance)
         {
-            print("DEAD");
+            Die();
         }
+    }
+
+    private void Die()
+    {
+        print("oh no im dead");
+        GameController.Instance.Restart();
     }
 }
