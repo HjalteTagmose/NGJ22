@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b611dd50f5c764c9d95da752f9fe5e, type: 3}
+  m_Name: 8B77EE35-E3D8-42C0-80C0-DC4711DF2A28
+  m_EditorClassIdentifier: 
+  objectName: RadioactiveLevel
+  id: 3880108918
+  guid: 8B77EE35-E3D8-42C0-80C0-DC4711DF2A28

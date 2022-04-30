@@ -11,12 +11,15 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1339597777">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1297469762">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="3975818058">
+		<SoundBank Id="1661994096" Language="SFX" Hash="3342068553">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -113,6 +116,61 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3228222034" Name="Player_Radiation" ObjectPath="\Events\Default Work Unit\Player_Radiation" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="142471957" Language="SFX">
+							<ShortName>Player_Radiation_Tick_04.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_04_10C4C929.wem</Path>
+						</File>
+						<File Id="201382558" Language="SFX">
+							<ShortName>Player_Radiation_Tick_08.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_08_10C4C929.wem</Path>
+						</File>
+						<File Id="213387039" Language="SFX">
+							<ShortName>Player_Radiation_Tick_06.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_06_10C4C929.wem</Path>
+						</File>
+						<File Id="325049680" Language="SFX">
+							<ShortName>Player_Radiation_Tick_07.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_07_10C4C929.wem</Path>
+						</File>
+						<File Id="336912728" Language="SFX">
+							<ShortName>Player_RadioActive_Loop_High_01.wav</ShortName>
+							<Path>SFX/Player_RadioActive_Loop_High_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="389739352" Language="SFX">
+							<ShortName>Player_Radiation_Tick_10.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_10_10C4C929.wem</Path>
+						</File>
+						<File Id="615185881" Language="SFX">
+							<ShortName>Player_Radiation_Tick_02.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_02_10C4C929.wem</Path>
+						</File>
+						<File Id="813220662" Language="SFX">
+							<ShortName>Player_Radiation_Tick_01.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_01_10C4C929.wem</Path>
+						</File>
+						<File Id="922488863" Language="SFX">
+							<ShortName>Player_Radiation_Tick_05.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_05_10C4C929.wem</Path>
+						</File>
+						<File Id="943043624" Language="SFX">
+							<ShortName>Player_Radiation_Tick_03.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_03_10C4C929.wem</Path>
+						</File>
+						<File Id="943909424" Language="SFX">
+							<ShortName>Player_RadioActive_Loop_Low_01.wav</ShortName>
+							<Path>SFX/Player_RadioActive_Loop_Low_01_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1055854214" Language="SFX">
+							<ShortName>Player_Radiation_Tick_09.wav</ShortName>
+							<Path>SFX/Player_Radiation_Tick_09_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="46403890" Language="SFX">
@@ -122,6 +180,9 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3880108918" Name="RadioactiveLevel" ObjectPath="\Game Parameters\Default Work Unit\RadioactiveLevel"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

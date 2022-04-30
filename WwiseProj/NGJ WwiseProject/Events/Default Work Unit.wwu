@@ -133,6 +133,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Player_Radiation" ID="{E3F9CF35-EAB6-4B3C-8041-1710E939E493}">
+					<ChildrenList>
+						<Action Name="" ID="{3B8E532F-044F-412B-8C5C-B98312B6DB8D}" ShortID="667513873">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Player_Radiation" ID="{E6B9B827-098A-4345-885D-BF63F2B299E2}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

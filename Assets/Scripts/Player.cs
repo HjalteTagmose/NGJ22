@@ -8,12 +8,17 @@ public class Player : MonoBehaviour
     public float maxInteractLength = 10;
     public float radioactiveTolerance = 100;
 
+    public GameObject soundObj;
+    public AK.Wwise.Event geigerCounter;
+    public AK.Wwise.RTPC geigerRTPC;
+
     private float radiation;
     private Camera cam;
     
     void Start()
     {
-        cam = Camera.main;    
+        cam = Camera.main;
+        geigerCounter.Post(soundObj);
     }
     
     void Update()
@@ -44,6 +49,7 @@ public class Player : MonoBehaviour
     public void SetRadiation(float radiation)
     {
         this.radiation = radiation;
+        geigerRTPC.SetValue(soundObj, radiation);
 
         if (radiation > radioactiveTolerance)
         {
