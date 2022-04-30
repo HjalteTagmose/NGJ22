@@ -86,6 +86,6 @@ public class Timer : MonoBehaviour
     private void TimeOut()
     {
         textMesh.text = "TIMEOUT";
-        GameController.Instance.Restart();
+        GameController.Instance.GameOver("Time ran out!");
     }
 }
