@@ -76,11 +76,11 @@ public partial class AkBuildPreprocessor : UnityEditor.Build.IPreprocessBuild, U
 
 	public static void DeleteSoundbanks(string destinationFolder)
 	{
-		if (string.IsNullOrEmpty(destinationFolder))
-			return;
-
-		System.IO.Directory.Delete(destinationFolder, true);
-		UnityEngine.Debug.LogFormat("WwiseUnity: Deleting streaming assets folder <{0}>", destinationFolder);
+		// if (string.IsNullOrEmpty(destinationFolder))
+		// 	return;
+		//
+		// System.IO.Directory.Delete(destinationFolder, true);
+		// UnityEngine.Debug.LogFormat("WwiseUnity: Deleting streaming assets folder <{0}>", destinationFolder);
 	}
 
 	public void OnPreprocessBuildInternal(UnityEditor.BuildTarget target, string path)
