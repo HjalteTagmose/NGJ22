@@ -546,6 +546,7 @@ GameObject:
   - component: {fileID: 6859612013614149319}
   - component: {fileID: 6859612013614149338}
   - component: {fileID: 5998633971631850253}
+  - component: {fileID: 6686428653456586890}
   m_Layer: 0
   m_Name: PatternButton
   m_TagString: Untagged
@@ -718,6 +719,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &6686428653456586890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859612013614149313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2ecb89e689562469def9915ef041f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
 --- !u!1 &6859612014060414218
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +863,7 @@ GameObject:
   - component: {fileID: 6859612014272830067}
   - component: {fileID: 6859612014272830070}
   - component: {fileID: 6558097456929102308}
+  - component: {fileID: 5085932629147998411}
   m_Layer: 0
   m_Name: PatternButton
   m_TagString: Untagged
@@ -1021,6 +1036,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &5085932629147998411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6859612014272830077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec2ecb89e689562469def9915ef041f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Collider: {fileID: 0}
 --- !u!1001 &6859612012840648878
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -17,8 +17,12 @@ namespace AK
         static const AkUniqueID ENDGAME = 4264815106U;
         static const AkUniqueID GENERATOR_PLAY = 4275927813U;
         static const AkUniqueID GENERATOR_STOP = 1364036739U;
+        static const AkUniqueID PLAY = 1256202815U;
         static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
+        static const AkUniqueID PLAY_PUZZLE4_CHILDREN_01 = 4248021902U;
+        static const AkUniqueID PLAY_PUZZLE4_HAPPYBIRTHDAY_01 = 665714952U;
+        static const AkUniqueID PLAY_PUZZLE4_NICEAMBIENCE_01 = 1275123884U;
         static const AkUniqueID PLAYER_RADIATION = 3228222034U;
         static const AkUniqueID PRESSUREPLATE = 2509089944U;
         static const AkUniqueID PUZZLE_3_FAIL = 2222680430U;

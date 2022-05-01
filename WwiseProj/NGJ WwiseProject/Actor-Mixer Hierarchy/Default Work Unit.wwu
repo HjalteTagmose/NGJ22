@@ -846,9 +846,19 @@
 					<ChildrenList>
 						<ActorMixer Name="Puzzle 3" ID="{8A1D88B2-EBE2-4550-B251-42D8FA4EFB5C}" ShortID="534465497">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="OverrideUserAuxSends" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="PUZZLE 2" ID="{E0E570DE-2D33-4330-BF21-2B2B0554C7E3}" WorkUnitID="{5DF1242B-9F78-4B88-AED2-0DE966E6C044}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E35F27C2-E4C5-4FCE-8597-93ED032A2EF5}"/>
 								</Reference>
@@ -1203,6 +1213,29 @@
 										<ActiveSource Name="Puzzle4_NiceAmbience_01" ID="{298E47DF-79C7-4311-B15D-B6294C447CD8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Puzzle4_Children_01" ID="{12CA34E2-8706-4962-8B4F-DBB8BF3C0C13}" ShortID="493389823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E35F27C2-E4C5-4FCE-8597-93ED032A2EF5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{00E8AC68-7619-4A58-9DC0-704B54C41B30}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Puzzle4_Children_01" ID="{E941B7E6-B79C-4FBD-9B12-14D66877C7A6}">
+											<Language>SFX</Language>
+											<AudioFile>Puzzle4_Children_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="443183376"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Puzzle4_Children_01" ID="{E941B7E6-B79C-4FBD-9B12-14D66877C7A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists/>
 						</ActorMixer>
@@ -1228,6 +1261,11 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
