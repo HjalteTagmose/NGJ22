@@ -35,19 +35,19 @@ public class Door : Interactable
         print("door: " + isOpen);
     }
 
-    private void Lock()
+    public void Lock()
     {
         isLocked = true;
         anim.SetBool("Locked", true);
     }
 
-    private void Unlock()
+    public void Unlock()
     {
         isLocked = false;
         anim.SetBool("Locked", false);
     }
 
-    private void Open()
+    public void Open()
     {
         if (isLocked && player.hasKey)
         {
@@ -64,7 +64,7 @@ public class Door : Interactable
         anim.SetTrigger("Open");
     }
 
-    private void Close()
+    public void Close()
     {
         isOpen = false;
         portal.Close();

@@ -32,7 +32,7 @@ public class PatternButton : Interactable
         }
 
         spotLight.color = Color.green;
-        print($"Pressed {num}");
+        //print($"Pressed {num}");
     }
 
     public void Fail()
