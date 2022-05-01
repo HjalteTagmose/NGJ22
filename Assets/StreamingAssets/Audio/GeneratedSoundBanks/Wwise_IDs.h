@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID BASE_AMBIENCE_PLAY = 109592986U;
+        static const AkUniqueID ENDGAME = 4264815106U;
         static const AkUniqueID GENERATOR_PLAY = 4275927813U;
         static const AkUniqueID GENERATOR_STOP = 1364036739U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
@@ -22,8 +23,25 @@ namespace AK
         static const AkUniqueID PUZZLE_3_FAIL = 2222680430U;
         static const AkUniqueID PUZZLE_3_NEXT_STEP = 2723208622U;
         static const AkUniqueID PUZZLE_3_STOP = 112230054U;
+        static const AkUniqueID STARTGAME = 1521187885U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace GAMESTATE
+        {
+            static const AkUniqueID GROUP = 4091656514U;
+
+            namespace STATE
+            {
+                static const AkUniqueID DEAD = 2044049779U;
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STARTED = 2798660212U;
+            } // namespace STATE
+        } // namespace GAMESTATE
+
+    } // namespace STATES
 
     namespace GAME_PARAMETERS
     {

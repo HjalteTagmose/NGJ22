@@ -9,10 +9,13 @@
 				<Property Name="Event Action List\{4FBC5CD1-CFF1-4015-877E-ED34E5DA4B7C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{66A6AD25-6812-42A4-87C1-EDC58EC55FBC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{6BF105D8-BA53-4EE9-95FD-DEFE14AF0C48}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7C803555-E8BE-4184-9EC9-6F713E7C7DFC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B604E3C5-221F-4521-B176-3EB9E79D09CD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E3F9CF35-EAB6-4B3C-8041-1710E939E493}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{E6D2D9A1-2BF1-4208-B3A3-2E4448404504}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{F2AA9F44-C67F-4197-B8A5-C709BD162F9C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{F37A5327-EA85-43E6-B65D-CB5F92594CC3}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{FD6AA0E3-F691-4226-B509-EC7FFA173087}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

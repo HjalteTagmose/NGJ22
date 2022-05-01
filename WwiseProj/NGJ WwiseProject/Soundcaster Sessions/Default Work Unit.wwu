@@ -13,18 +13,24 @@
 							<ObjectRef Name="Puzzle_3_Fail" ID="{6BF105D8-BA53-4EE9-95FD-DEFE14AF0C48}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
 							<Position X="1" Y="0"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Player_Radiation" ID="{E3F9CF35-EAB6-4B3C-8041-1710E939E493}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+							<Position X="2" Y="0"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
 							<GameParameterRef Name="RadioactiveLevel" ID="{8B77EE35-E3D8-42C0-80C0-DC4711DF2A28}"/>
-							<Value>59.4972067039106</Value>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Test" ID="{49056E8F-2283-44E4-A831-1D98813B7C22}"/>
 							<Value>50</Value>
 						</RTPCValue>
 					</RTPCValueList>
-					<CurrentStateList ShowAll="true"/>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Started" ID="{E3845785-1AC2-41C6-9A2D-FB042B5E2D10}"/>
+					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true"/>
 				</SoundcasterSession>
 			</ChildrenList>

@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="270528623">
+		<SoundBank Id="1355168291" Language="SFX" Hash="325208743">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="1508201893">
+		<SoundBank Id="1661994096" Language="SFX" Hash="3158338150">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -107,6 +107,11 @@
 							<Path>SFX/Scray_Scream_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4264815106" Name="EndGame" ObjectPath="\Events\Default Work Unit\GamePlay\EndGame" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\GameState\Dead"/>
+					</ActionSetState>
 				</Event>
 				<Event Id="4275927813" Name="Generator_Play" ObjectPath="\Events\Default Work Unit\Generator_Play" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>
@@ -353,6 +358,11 @@
 					</AuxBusSends>
 				</Event>
 				<Event Id="112230054" Name="Puzzle_3_Stop" ObjectPath="\Events\Default Work Unit\Puzzle_3_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1521187885" Name="StartGame" ObjectPath="\Events\Default Work Unit\GamePlay\StartGame" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
+					<ActionSetState>
+						<ActionSetStateEntry Id="2798660212" Name="Started" ObjectPath="\States\Default Work Unit\GameState\Started"/>
+					</ActionSetState>
+				</Event>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="46403890" Language="SFX">
@@ -365,6 +375,14 @@
 			<GameParameters>
 				<GameParameter Id="3880108918" Name="RadioactiveLevel" ObjectPath="\Game Parameters\Default Work Unit\RadioactiveLevel"/>
 			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\GameState\Dead" GUID="{F2EC1111-3869-42EA-BC2B-CFC976EE31CF}">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="2798660212" Name="Started" ObjectPath="\States\Default Work Unit\GameState\Started" GUID="{E3845785-1AC2-41C6-9A2D-FB042B5E2D10}">
+					<States/>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

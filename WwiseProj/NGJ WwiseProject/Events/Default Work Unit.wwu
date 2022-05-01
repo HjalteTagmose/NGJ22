@@ -268,6 +268,49 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="GamePlay" ID="{A142D101-FAE2-4B48-9469-A260C97A33EF}" ShortID="1036543113">
+					<ChildrenList>
+						<Event Name="StartGame" ID="{FD6AA0E3-F691-4226-B509-EC7FFA173087}">
+							<ChildrenList>
+								<Action Name="" ID="{43C69580-3C38-42CF-9872-FB022BA50321}" ShortID="584852421">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Started" ID="{E3845785-1AC2-41C6-9A2D-FB042B5E2D10}" WorkUnitID="{FAD7DA6A-9BC0-4053-B17A-99C84D00D24C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="EndGame" ID="{F2AA9F44-C67F-4197-B8A5-C709BD162F9C}">
+							<ChildrenList>
+								<Action Name="" ID="{894D80B4-B5F9-4A6F-938F-F0CE37B2A096}" ShortID="77869824">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="22"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dead" ID="{F2EC1111-3869-42EA-BC2B-CFC976EE31CF}" WorkUnitID="{FAD7DA6A-9BC0-4053-B17A-99C84D00D24C}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Play_Door_Open" ID="{53F039DA-B9ED-4EDF-87F6-19663D9CB11E}">
+					<ChildrenList>
+						<Action Name="" ID="{2BD424D2-1B5D-49D7-832D-C035D11DAE0D}" ShortID="942609924">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Door_Open_01" ID="{F4488389-5DAD-4CD3-AF77-68B7E61DCA5A}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
