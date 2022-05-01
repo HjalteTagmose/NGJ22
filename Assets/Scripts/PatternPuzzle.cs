@@ -10,6 +10,8 @@ public class PatternPuzzle : MonoBehaviour
     private int next = 0;
     private int buttonsPressed = 0;
 
+    public AK.Wwise.Event success, stop, fail;
+
     void Start()
     {
         buttons = GetComponentsInChildren<PatternButton>();
@@ -26,6 +28,7 @@ public class PatternPuzzle : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
+            if (i == 0) success.Post(buttons[i].gameObject);
             buttons[i].Setup(this, i);
         }
     }
@@ -41,7 +44,12 @@ public class PatternPuzzle : MonoBehaviour
         if (!finished) next = buttons[buttonsPressed].num;
 
         if (!correct)
+        {
+            fail.Post(buttons[buttonsPressed-1].gameObject);
             StartCoroutine(DelayedReset());
+        }
+        else if (correct && !finished)
+            success.Post(buttons[buttonsPressed].gameObject);
         else if (correct && finished)
             Win();
 
