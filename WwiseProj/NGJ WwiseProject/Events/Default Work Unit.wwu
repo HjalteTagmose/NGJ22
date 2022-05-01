@@ -199,6 +199,60 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Puzzle_3_Next_Step" ID="{4B9DFE67-B63D-473D-A9CD-E571D56C5BA2}">
+					<ChildrenList>
+						<Action Name="" ID="{6540C536-EBE3-4891-8E5A-9705081DC71A}" ShortID="864161720">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomPuzzle" ID="{DCD664C2-BA72-448D-9EA3-5723DEA4B351}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Puzzle_3_Fail" ID="{6BF105D8-BA53-4EE9-95FD-DEFE14AF0C48}">
+					<ChildrenList>
+						<Action Name="" ID="{C62F8B81-9DD2-45EF-B115-1F570E4A85FB}" ShortID="595723952">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="42"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomPuzzle" ID="{DCD664C2-BA72-448D-9EA3-5723DEA4B351}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{83B2BA00-B893-4DC5-AF49-5DCFEEE3CD3A}" ShortID="1045388411">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomPuzzle" ID="{DCD664C2-BA72-448D-9EA3-5723DEA4B351}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{84B67132-2E4E-49C1-AA86-9749845C5A8A}" ShortID="830081522">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Event_Tsunami_Alarm01 1" ID="{8DF98563-2967-4FA5-8C4F-EA4C7A9B70E6}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PressurePlate" ID="{E6D2D9A1-2BF1-4208-B3A3-2E4448404504}">
+					<ChildrenList>
+						<Action Name="" ID="{2484F4F4-BB6C-4F5D-B8E9-CBEAFF38F650}" ShortID="260295121">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="LevelEnv_Engine_Handle_01" ID="{0ADF6CF4-44A8-41C6-B76C-1C72BAE88BE1}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

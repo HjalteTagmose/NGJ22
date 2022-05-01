@@ -6,11 +6,11 @@
 				<SoundcasterSession Name="SoundCaster" ID="{948105C8-8F55-43F8-8C3F-B5483DE1B15E}">
 					<ModuleList>
 						<Module>
-							<ObjectRef Name="Generator_Play" ID="{25CC7A07-93B2-418A-99C2-F6973F2A10F1}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+							<ObjectRef Name="Puzzle_3_Next_Step" ID="{4B9DFE67-B63D-473D-A9CD-E571D56C5BA2}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
 							<Position X="0" Y="0"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Generator_Stop" ID="{B604E3C5-221F-4521-B176-3EB9E79D09CD}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+							<ObjectRef Name="Puzzle_3_Fail" ID="{6BF105D8-BA53-4EE9-95FD-DEFE14AF0C48}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 					</ModuleList>
