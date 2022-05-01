@@ -15,8 +15,8 @@ public class GameOverMenu : MonoBehaviour
     public TextMeshProUGUI title;
     public GameObject buttons;
 
-    Color titleColor;
-    Color backgroundColor;
+    [HideInInspector] public Color titleColor;
+    [HideInInspector] public Color backgroundColor;
 
     void Start()
     {
