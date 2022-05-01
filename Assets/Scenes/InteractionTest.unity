@@ -657,6 +657,7 @@ MonoBehaviour:
   onInteract:
     m_PersistentCalls:
       m_Calls: []
+  outline: {fileID: 0}
 --- !u!114 &436563485
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2122,6 +2123,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a87cbdb6d3bad97479817756e2fc130f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  stop:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 07ea915bec938704c85aa964dd1b6a4c, type: 2}
+--- !u!114 &1441231146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1441231141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a970b7a6b289e34dae744854027a245, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1481293768
 GameObject:
   m_ObjectHideFlags: 0
@@ -2528,6 +2555,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 357380762}
+    - target: {fileID: 1530241364809510758, guid: 4cf61571cfc4ed44e8d2423fac3d37d1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1530241364810622160, guid: 4cf61571cfc4ed44e8d2423fac3d37d1, type: 3}
       propertyPath: totalTime
       value: 10

@@ -27,6 +27,8 @@ public class Door : Interactable
 
     public override void Interact()
     {
+        base.Interact();
+
         isOpen = !isOpen;
         
         if (isOpen) Open();
