@@ -59,3 +59,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   strength: 2
+  debugRadiation: 0
+  geigerCounter:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 0f19eae84882e9a47af9087e46480a42, type: 2}
+  geigerRTPC:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5e375b6dea6309344a1208b25cac2cfc, type: 2}
