@@ -1,6 +1,7 @@
 using StarterAssets;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -29,6 +30,9 @@ public class GameController : MonoBehaviour
         gameOverMenu.SetActive(true);
         Cursor.lockState = CursorLockMode.Confined;
         FindObjectOfType<StarterAssetsInputs>().Stop();
+        
+        var txt = gameOverMenu.transform.Find("title")?.GetComponent<TextMeshProUGUI>(); 
+        if (txt) txt.text = msg;
     }
 
     public void Restart()
