@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="1667988294">
+		<SoundBank Id="1661994096" Language="SFX" Hash="2078841115">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -107,6 +107,9 @@
 							<Path>SFX/Scray_Scream_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="1521187885" Name="StartGame" ObjectPath="\Events\Default Work Unit\GamePlay\StartGame"/>
+					</ActionPostEvent>
 				</Event>
 				<Event Id="4264815106" Name="EndGame" ObjectPath="\Events\Default Work Unit\GamePlay\EndGame" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0.">
 					<ActionSetState>
