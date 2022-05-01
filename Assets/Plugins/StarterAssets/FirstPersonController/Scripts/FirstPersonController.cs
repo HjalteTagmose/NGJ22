@@ -123,7 +123,7 @@ namespace StarterAssets
 		{
 			JumpAndGravity();
 			GroundedCheck();
-			//HandleAudio(); 
+			HandleAudio(); 
 			Move();
 		}
 
