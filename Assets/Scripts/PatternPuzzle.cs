@@ -6,6 +6,7 @@ using Random = System.Random;
 
 public class PatternPuzzle : MonoBehaviour
 {
+    public Door winDoor;
     public PatternButton[] buttons;
     private int next = 0;
     private int buttonsPressed = 0;
@@ -59,6 +60,8 @@ public class PatternPuzzle : MonoBehaviour
     private void Win()
     {
         print("PUZZLE SOLVED SIDJAOSIJDIOASJDOIASD");
+        winDoor.Unlock();
+        winDoor.Open();
     }
 
     IEnumerator DelayedReset()
