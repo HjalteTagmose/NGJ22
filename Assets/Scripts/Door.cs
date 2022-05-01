@@ -22,18 +22,16 @@ public class Door : Interactable
         if (isOpen) Open();
         if (isLocked) Lock();
 
-        onInteract.AddListener(Interact);
+        onInteract.AddListener(DoorInteract);
     }
 
-    public override void Interact()
+    private void DoorInteract()
     {
-        base.Interact();
-
         isOpen = !isOpen;
-        
+
         if (isOpen) Open();
         else Close();
-        
+
         print("door: " + isOpen);
     }
 

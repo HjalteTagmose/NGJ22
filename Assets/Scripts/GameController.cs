@@ -22,7 +22,7 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
-        
+        gameOverMenu = FindObjectOfType<GameOverMenu>();
     }
 
     public void GameOver(string msg)
