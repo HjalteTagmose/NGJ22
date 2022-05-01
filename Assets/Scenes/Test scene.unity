@@ -226,6 +226,58 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1804034395}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1804034395}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: Unlock
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: Open
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Door, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: Door, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7687192701560224, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
+      propertyPath: onInteract.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7987826359676623984, guid: 19a33de9bd15a43218290b72658cf35e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2971,6 +3023,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 35901830}
     m_Modifications:
+    - target: {fileID: 1464818110024725087, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
+      propertyPath: isOpen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1464818110024725087, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7036951135963102912, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
       propertyPath: m_Name
       value: TwoDoorRoom_medium
@@ -4371,6 +4431,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.8000003, y: 4, z: 4}
   m_Center: {x: 0.40000027, y: 2, z: -2}
+--- !u!114 &1804034395 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1464818110024725087, guid: f9dbd12617fed7f4db816239f164b822, type: 3}
+  m_PrefabInstance: {fileID: 1323358383}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee53623f48bebde4a9a112717ea7c234, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1835628410
 PrefabInstance:
   m_ObjectHideFlags: 0
