@@ -10,12 +10,14 @@ public class PatternButton : Interactable
     private Light spotLight;
     private Interactable interactable;
     private PatternPuzzle puzzle;
+    private Animator valveAnim;
 
     public void Setup(PatternPuzzle puzzle, int i)
     {
         spotLight = GetComponentInChildren<Light>();
         interactable = GetComponent<Interactable>();
         this.puzzle = GetComponentInParent<PatternPuzzle>();
+        valveAnim = GetComponentInChildren<Animator>();
 
         num = i;
         transform.name = "Button " + i;
@@ -24,6 +26,8 @@ public class PatternButton : Interactable
 
     public void Press()
     {
+        valveAnim.SetBool("Open", true);
+
         bool correct = puzzle.PressButton(num);
         if (!correct)
         {
@@ -37,6 +41,7 @@ public class PatternButton : Interactable
 
     public void Fail()
     {
+        valveAnim.SetBool("Open", false);
         spotLight.color = Color.red;
     }
 

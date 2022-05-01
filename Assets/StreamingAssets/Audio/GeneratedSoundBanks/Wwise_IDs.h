@@ -17,6 +17,7 @@ namespace AK
         static const AkUniqueID ENDGAME = 4264815106U;
         static const AkUniqueID GENERATOR_PLAY = 4275927813U;
         static const AkUniqueID GENERATOR_STOP = 1364036739U;
+        static const AkUniqueID PLAY_DOOR_OPEN = 1660008929U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAYER_RADIATION = 3228222034U;
         static const AkUniqueID PRESSUREPLATE = 2509089944U;
@@ -42,6 +43,21 @@ namespace AK
         } // namespace GAMESTATE
 
     } // namespace STATES
+
+    namespace SWITCHES
+    {
+        namespace ENGINE_STOPPED
+        {
+            static const AkUniqueID GROUP = 2525975597U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID NOT_STOPPED = 634613602U;
+                static const AkUniqueID STOPPED = 2904797076U;
+            } // namespace SWITCH
+        } // namespace ENGINE_STOPPED
+
+    } // namespace SWITCHES
 
     namespace GAME_PARAMETERS
     {

@@ -20,7 +20,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1f49567f33e90c74785c09e8c1e9aa61, type: 2}
   InvalidReferencePlatforms: []
   UserSettings:
-    m_BasePath: Audio\GeneratedSoundBanks
+    m_BasePath: Audio/GeneratedSoundBanks
     m_StartupLanguage: English(US)
     m_EngineLogging: 1
     m_MaximumNumberOfPositioningPaths: 255
@@ -42,7 +42,7 @@ MonoBehaviour:
       m_MovementThreshold: 1
       m_NumberOfPrimaryRays: 100
       m_MaxReflectionOrder: 1
-      m_MaxPathLength: 20000
+      m_MaxPathLength: 10000
       m_CPULimitPercentage: 0
       m_EnableDiffractionOnReflections: 1
       m_EnableGeometricDiffractionAndTransmission: 1

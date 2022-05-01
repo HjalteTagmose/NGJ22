@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8CF07831-65EC-4EC0-973C-48B4E67A903D}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{8CF07831-65EC-4EC0-973C-48B4E67A903D}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8CF07831-65EC-4EC0-973C-48B4E67A903D}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Engine_Stopped" ID="{BB917B94-2B59-44FE-B802-EC5C5F2CB616}">
+					<ChildrenList>
+						<Switch Name="Not_Stopped" ID="{03DF0E8E-9855-45F9-B2DD-C0B60BFC79A5}"/>
+						<Switch Name="Stopped" ID="{0FCCC986-429F-4B8D-B739-DC2330E2B761}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

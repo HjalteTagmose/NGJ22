@@ -141,6 +141,16 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{52FC0A43-4B63-4FDE-B4AE-88DF1273EB67}" ShortID="98993510">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Not_Stopped" ID="{03DF0E8E-9855-45F9-B2DD-C0B60BFC79A5}" WorkUnitID="{8CF07831-65EC-4EC0-973C-48B4E67A903D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Player_Radiation" ID="{E3F9CF35-EAB6-4B3C-8041-1710E939E493}">
@@ -167,6 +177,16 @@
 				</Event>
 				<Event Name="Generator_Stop" ID="{B604E3C5-221F-4521-B176-3EB9E79D09CD}">
 					<ChildrenList>
+						<Action Name="" ID="{BAB36A97-0D7F-4EE8-9D5B-85DEB1CED985}" ShortID="483619019">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="23"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stopped" ID="{0FCCC986-429F-4B8D-B739-DC2330E2B761}" WorkUnitID="{8CF07831-65EC-4EC0-973C-48B4E67A903D}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{A8E9EEFB-EF5D-4AB9-B600-B7D644AE8B11}" ShortID="766259269">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="13"/>

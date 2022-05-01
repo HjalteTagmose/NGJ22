@@ -18,25 +18,23 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public GameObject gameOverMenu;
+    public GameOverMenu gameOverMenu;
 
     private void Start()
     {
-        
+        gameOverMenu = FindObjectOfType<GameOverMenu>();
     }
 
     public void GameOver(string msg)
     {
-        gameOverMenu.SetActive(true);
-        Cursor.lockState = CursorLockMode.Confined;
-        FindObjectOfType<StarterAssetsInputs>().Stop();
-        
-        var txt = gameOverMenu.transform.Find("title")?.GetComponent<TextMeshProUGUI>(); 
-        if (txt) txt.text = msg;
+        print("gameOVERRR: " +msg);
+        gameOverMenu.SetTitle(msg);
+        gameOverMenu.Open();
     }
 
     public void Restart()
     {
+        StopAllCoroutines();
         var scene = SceneManager.GetActiveScene();
         SceneManager.LoadScene(scene.buildIndex);
     }

@@ -8,14 +8,15 @@ using UnityEngine.Events;
 public class Interactable : MonoBehaviour
 {
     public UnityEvent onInteract;
+    public Outline outline;
 
     private bool isHover = false;
     private float outlineWidth;
-    private Outline outline;
 
     protected virtual void Start()
     {
-        outline = GetComponent<Outline>();
+        if (outline == null) 
+            outline = GetComponent<Outline>();
         outlineWidth = outline.OutlineWidth;
     }
 

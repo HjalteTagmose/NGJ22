@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	112230054	Puzzle_3_Stop			\Default Work Unit\Puzzle_3_Stop	
 	1364036739	Generator_Stop			\Default Work Unit\Generator_Stop	
 	1521187885	StartGame			\Default Work Unit\GamePlay\StartGame	
+	1660008929	Play_Door_Open			\Default Work Unit\Play_Door_Open	
 	2222680430	Puzzle_3_Fail			\Default Work Unit\Puzzle_3_Fail	
 	2509089944	PressurePlate			\Default Work Unit\PressurePlate	
 	2723208622	Puzzle_3_Next_Step			\Default Work Unit\Puzzle_3_Next_Step	
@@ -11,6 +12,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	3228222034	Player_Radiation			\Default Work Unit\Player_Radiation	
 	4264815106	EndGame			\Default Work Unit\GamePlay\EndGame	
 	4275927813	Generator_Play			\Default Work Unit\Generator_Play	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2525975597	Engine_Stopped			\Default Work Unit\Engine_Stopped	
+
+Switch	ID	Name	Switch Group			Notes
+	634613602	Not_Stopped	Engine_Stopped			
+	2904797076	Stopped	Engine_Stopped			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	4091656514	GameState			\Default Work Unit\GameState	
@@ -46,7 +54,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	271883726	Amb_Drips_07	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Drips_07_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_07		47492
 	276571848	LevelEnv_Generator_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\LevelEnv_Generator_01_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 1\LevelEnv_Generator_01		130758
 	293926284	Base_Ambience_Scary_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Base_Ambience_Scary_01_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Base_Ambience_Scary_01		978793
-	311065688	LevelEnv_Engine_Handle_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\LevelEnv_Engine_Handle_01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 1\LevelEnv_Engine_Handle_01		102537
+	311065688	LevelEnv_Engine_Handle_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\LevelEnv_Engine_Handle_01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 1\EngineStop\LevelEnv_Engine_Handle_01		102537
 	312858514	Amb_Steam_Hiss_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Steam_Hiss_03_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Hiss\Amb_Steam_Hiss_03		92946
 	321209810	Scray_Scream_04	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Scray_Scream_04_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_04		135219
 	325049680	Player_Radiation_Tick_07	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_07_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_07		1627
@@ -100,4 +108,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1052564996	Footsteps_Dirt_Soft_06	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Soft_06_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Soft\Footsteps_Dirt_Soft_06		5110
 	1052980291	Scray_Scream_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Scray_Scream_01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Scary Scream\Scray_Scream_01		178211
 	1055854214	Player_Radiation_Tick_09	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_09_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_09		1664
+	1070998494	Door_Open_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Door_Open_01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Door_Open_01		24025
 

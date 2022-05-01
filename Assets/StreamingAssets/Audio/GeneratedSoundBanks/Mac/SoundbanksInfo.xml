@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="3158338150">
+		<SoundBank Id="1661994096" Language="SFX" Hash="1667988294">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -113,19 +113,33 @@
 						<ActionSetStateEntry Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\GameState\Dead"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="4275927813" Name="Generator_Play" ObjectPath="\Events\Default Work Unit\Generator_Play" MaxAttenuation="50." DurationType="Infinite">
+				<Event Id="4275927813" Name="Generator_Play" ObjectPath="\Events\Default Work Unit\Generator_Play" MaxAttenuation="75." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="276571848" Language="SFX">
 							<ShortName>LevelEnv_Generator_01.wav</ShortName>
 							<Path>SFX/LevelEnv_Generator_01_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="634613602" Name="Not_Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Not_Stopped"/>
+					</ActionSetSwitch>
 				</Event>
 				<Event Id="1364036739" Name="Generator_Stop" ObjectPath="\Events\Default Work Unit\Generator_Stop" MaxAttenuation="50." DurationType="OneShot" DurationMin="6.828938" DurationMax="6.828938">
 					<IncludedMemoryFiles>
 						<File Id="311065688" Language="SFX">
 							<ShortName>LevelEnv_Engine_Handle_01.wav</ShortName>
 							<Path>SFX/LevelEnv_Engine_Handle_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetSwitch>
+						<ActionSetSwitchEntry Id="2904797076" Name="Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Stopped"/>
+					</ActionSetSwitch>
+				</Event>
+				<Event Id="1660008929" Name="Play_Door_Open" ObjectPath="\Events\Default Work Unit\Play_Door_Open" DurationType="OneShot" DurationMin="1.429875" DurationMax="1.429875">
+					<IncludedMemoryFiles>
+						<File Id="1070998494" Language="SFX">
+							<ShortName>Door_Open_01.wav</ShortName>
+							<Path>SFX/Door_Open_01_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -383,6 +397,20 @@
 					<States/>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="634613602" Name="Not_Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Not_Stopped" GUID="{03DF0E8E-9855-45F9-B2DD-C0B60BFC79A5}">
+					<Switches/>
+				</SwitchGroup>
+				<SwitchGroup Id="2525975597" Name="Engine_Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped" GUID="{BB917B94-2B59-44FE-B802-EC5C5F2CB616}">
+					<Switches>
+						<Switch Id="634613602" Name="Not_Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Not_Stopped" GUID="{03DF0E8E-9855-45F9-B2DD-C0B60BFC79A5}"/>
+						<Switch Id="2904797076" Name="Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Stopped" GUID="{0FCCC986-429F-4B8D-B739-DC2330E2B761}"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2904797076" Name="Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Stopped" GUID="{0FCCC986-429F-4B8D-B739-DC2330E2B761}">
+					<Switches/>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
