@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
 	109592986	Base_Ambience_Play			\Default Work Unit\Base_Ambience_Play	
+	112230054	Puzzle_3_Stop			\Default Work Unit\Puzzle_3_Stop	
 	1364036739	Generator_Stop			\Default Work Unit\Generator_Stop	
 	2222680430	Puzzle_3_Fail			\Default Work Unit\Puzzle_3_Fail	
 	2509089944	PressurePlate			\Default Work Unit\PressurePlate	

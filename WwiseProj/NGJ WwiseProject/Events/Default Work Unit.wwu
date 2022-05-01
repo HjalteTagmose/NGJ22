@@ -226,6 +226,7 @@
 						<Action Name="" ID="{83B2BA00-B893-4DC5-AF49-5DCFEEE3CD3A}" ShortID="1045388411">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
@@ -248,6 +249,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="LevelEnv_Engine_Handle_01" ID="{0ADF6CF4-44A8-41C6-B76C-1C72BAE88BE1}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Puzzle_3_Stop" ID="{F37A5327-EA85-43E6-B65D-CB5F92594CC3}">
+					<ChildrenList>
+						<Action Name="" ID="{82A84404-F16D-406C-9366-2BD4424CE83A}" ShortID="654936773">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RoomPuzzle" ID="{DCD664C2-BA72-448D-9EA3-5723DEA4B351}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
