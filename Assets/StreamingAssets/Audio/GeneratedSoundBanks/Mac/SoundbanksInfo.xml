@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3964186200">
+		<SoundBank Id="1355168291" Language="SFX" Hash="270528623">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="136694977">
+		<SoundBank Id="1661994096" Language="SFX" Hash="1508201893">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -322,6 +322,37 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
+				<Event Id="2509089944" Name="PressurePlate" ObjectPath="\Events\Default Work Unit\PressurePlate" MaxAttenuation="50." DurationType="OneShot" DurationMin="6.828938" DurationMax="6.828938">
+					<IncludedMemoryFiles>
+						<File Id="311065688" Language="SFX">
+							<ShortName>LevelEnv_Engine_Handle_01.wav</ShortName>
+							<Path>SFX/LevelEnv_Engine_Handle_01_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2222680430" Name="Puzzle_3_Fail" ObjectPath="\Events\Default Work Unit\Puzzle_3_Fail" MaxAttenuation="50." DurationType="OneShot" DurationMin="0.784938" DurationMax="0.784938">
+					<IncludedMemoryFiles>
+						<File Id="1019421666" Language="SFX">
+							<ShortName>Event_Tsunami_Alarm01 1.wav</ShortName>
+							<Path>SFX/Event_Tsunami_Alarm01 1_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2723208622" Name="Puzzle_3_Next_Step" ObjectPath="\Events\Default Work Unit\Puzzle_3_Next_Step" MaxAttenuation="50." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="37923433" Language="SFX">
+							<ShortName>RoomPuzzle_Glass_01.wav</ShortName>
+							<Path>SFX/RoomPuzzle_Glass_01_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="112230054" Name="Puzzle_3_Stop" ObjectPath="\Events\Default Work Unit\Puzzle_3_Stop" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3157003241" Name="Test" ObjectPath="\Events\Default Work Unit\Test" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="46403890" Language="SFX">

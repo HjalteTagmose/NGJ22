@@ -18,6 +18,10 @@ namespace AK
         static const AkUniqueID GENERATOR_STOP = 1364036739U;
         static const AkUniqueID PLAY_PLAYER_FOOTSTEPS = 98439365U;
         static const AkUniqueID PLAYER_RADIATION = 3228222034U;
+        static const AkUniqueID PRESSUREPLATE = 2509089944U;
+        static const AkUniqueID PUZZLE_3_FAIL = 2222680430U;
+        static const AkUniqueID PUZZLE_3_NEXT_STEP = 2723208622U;
+        static const AkUniqueID PUZZLE_3_STOP = 112230054U;
         static const AkUniqueID TEST = 3157003241U;
     } // namespace EVENTS
 

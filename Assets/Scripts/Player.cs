@@ -5,12 +5,13 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public bool hasKey;
     public float maxInteractLength = 10;
     public float radioactiveTolerance = 100;
 
     private float radiation;
     private Camera cam;
-    
+
     void Start()
     {
         cam = Camera.main;
@@ -47,5 +48,10 @@ public class Player : MonoBehaviour
         this.radiation = radiation;
         if (radiation > radioactiveTolerance)
             GameController.Instance.GameOver("You died of radiation exposure!");
+    }
+
+    public void PickupKey()
+    {
+        hasKey = true;
     }
 }
