@@ -28,6 +28,18 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _MetallicSmoothness:
+        m_Texture: {fileID: 2800000, guid: fce49143cbfe56e40a7f3ef534dde010, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: 225f30a29b7af3b479d822f2c7cf7dbe, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_a7165def5e0b418381ef833c36afbbab_Texture_1:
+        m_Texture: {fileID: 2800000, guid: eaa929ce56440d2498dd3f06e732a448, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -43,7 +55,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _BaseColor01_Tile: 1
-    - _BaseColor02_Tile: 0
+    - _BaseColor02_Tile: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Triplannar: 0
