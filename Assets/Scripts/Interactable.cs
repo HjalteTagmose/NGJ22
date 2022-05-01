@@ -13,7 +13,7 @@ public class Interactable : MonoBehaviour
     private float outlineWidth;
     private Outline outline;
 
-    void Start()
+    protected virtual void Start()
     {
         outline = GetComponent<Outline>();
         outlineWidth = outline.OutlineWidth;
@@ -30,7 +30,7 @@ public class Interactable : MonoBehaviour
         isHover = true;
     }
 
-    public void Interact()
+    public virtual void Interact()
     {
         onInteract?.Invoke();
         print($"Interacted with '{name}'");
