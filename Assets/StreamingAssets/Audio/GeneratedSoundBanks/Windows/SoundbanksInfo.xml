@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="1661994096" Language="SFX" Hash="2078841115">
+		<SoundBank Id="1661994096" Language="SFX" Hash="281238497">
 			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
 			<ShortName>SoundBank</ShortName>
 			<Path>SoundBank.bnk</Path>
@@ -137,6 +137,22 @@
 					<ActionSetSwitch>
 						<ActionSetSwitchEntry Id="2904797076" Name="Stopped" ObjectPath="\Switches\Default Work Unit\Engine_Stopped\Stopped"/>
 					</ActionSetSwitch>
+				</Event>
+				<Event Id="1256202815" Name="Play" ObjectPath="\Events\Default Work Unit\Play" MaxAttenuation="80." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="172981869" Language="SFX">
+							<ShortName>Puzzle4_NiceAmbience_01.wav</ShortName>
+							<Path>SFX/Puzzle4_NiceAmbience_01_9EDFC787.wem</Path>
+						</File>
+						<File Id="443183376" Language="SFX">
+							<ShortName>Puzzle4_Children_01.wav</ShortName>
+							<Path>SFX/Puzzle4_Children_01_9EDFC787.wem</Path>
+						</File>
+						<File Id="683877010" Language="SFX">
+							<ShortName>Puzzle4_HappyBirthday_01.wav</ShortName>
+							<Path>SFX/Puzzle4_HappyBirthday_01_BBC0EE0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1660008929" Name="Play_Door_Open" ObjectPath="\Events\Default Work Unit\Play_Door_Open" DurationType="OneShot" DurationMin="1.429875" DurationMax="1.429875">
 					<IncludedMemoryFiles>
@@ -288,6 +304,30 @@
 					<AuxBusSends>
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
+				</Event>
+				<Event Id="4248021902" Name="Play_Puzzle4_Children_01" ObjectPath="\Events\Default Work Unit\Play_Puzzle4_Children_01" MaxAttenuation="80." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="443183376" Language="SFX">
+							<ShortName>Puzzle4_Children_01.wav</ShortName>
+							<Path>SFX/Puzzle4_Children_01_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="665714952" Name="Play_Puzzle4_HappyBirthday_01" ObjectPath="\Events\Default Work Unit\Play_Puzzle4_HappyBirthday_01" MaxAttenuation="80." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="683877010" Language="SFX">
+							<ShortName>Puzzle4_HappyBirthday_01.wav</ShortName>
+							<Path>SFX/Puzzle4_HappyBirthday_01_BBC0EE0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1275123884" Name="Play_Puzzle4_NiceAmbience_01" ObjectPath="\Events\Default Work Unit\Play_Puzzle4_NiceAmbience_01" MaxAttenuation="80." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="172981869" Language="SFX">
+							<ShortName>Puzzle4_NiceAmbience_01.wav</ShortName>
+							<Path>SFX/Puzzle4_NiceAmbience_01_9EDFC787.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3228222034" Name="Player_Radiation" ObjectPath="\Events\Default Work Unit\Player_Radiation" MaxAttenuation="50." DurationType="Infinite">
 					<IncludedMemoryFiles>

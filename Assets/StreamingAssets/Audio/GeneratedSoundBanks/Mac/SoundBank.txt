@@ -2,6 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	98439365	Play_Player_Footsteps			\Default Work Unit\Play_Player_Footsteps	
 	109592986	Base_Ambience_Play			\Default Work Unit\Base_Ambience_Play	
 	112230054	Puzzle_3_Stop			\Default Work Unit\Puzzle_3_Stop	
+	665714952	Play_Puzzle4_HappyBirthday_01			\Default Work Unit\Play_Puzzle4_HappyBirthday_01	
+	1256202815	Play			\Default Work Unit\Play	
+	1275123884	Play_Puzzle4_NiceAmbience_01			\Default Work Unit\Play_Puzzle4_NiceAmbience_01	
 	1364036739	Generator_Stop			\Default Work Unit\Generator_Stop	
 	1521187885	StartGame			\Default Work Unit\GamePlay\StartGame	
 	1660008929	Play_Door_Open			\Default Work Unit\Play_Door_Open	
@@ -10,6 +13,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2723208622	Puzzle_3_Next_Step			\Default Work Unit\Puzzle_3_Next_Step	
 	3157003241	Test			\Default Work Unit\Test	
 	3228222034	Player_Radiation			\Default Work Unit\Player_Radiation	
+	4248021902	Play_Puzzle4_Children_01			\Default Work Unit\Play_Puzzle4_Children_01	
 	4264815106	EndGame			\Default Work Unit\GamePlay\EndGame	
 	4275927813	Generator_Play			\Default Work Unit\Generator_Play	
 
@@ -45,6 +49,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	91398512	Player_Cloth_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Cloth_03_EBAAC015.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Player_Cloth\Player_Cloth_03		10676
 	126172336	Player_Cloth_06	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Cloth_06_EBAAC015.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Player_Cloth\Player_Cloth_06		8876
 	142471957	Player_Radiation_Tick_04	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_04_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_04		1294
+	172981869	Puzzle4_NiceAmbience_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Puzzle4_NiceAmbience_01_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 4\Puzzle4_NiceAmbience_01		1078366
 	199245326	Amb_Drips_06	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Drips_06_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_06		41889
 	201382558	Player_Radiation_Tick_08	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_08_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_08		1651
 	213387039	Player_Radiation_Tick_06	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_06_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_06		1455
@@ -64,6 +69,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	389739352	Player_Radiation_Tick_10	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Radiation_Tick_10_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 2\Player_Radiation\Player_Radiation_Tick\Player_Radiation_Tick_10		1476
 	418849329	Amb_Drips_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Drips_01_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_01		64577
 	435800846	Player_Cloth_05	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Player_Cloth_05_EBAAC015.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Player_Cloth\Player_Cloth_05		9145
+	443183376	Puzzle4_Children_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Puzzle4_Children_01_9EDFC787.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 4\Puzzle4_Children_01		268052
 	461717122	Footsteps_Dirt_Hard_11	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Hard_11_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Hard\Footsteps_Dirt_Hard_11		2971
 	470015550	Footsteps_Dirt_Soft_12	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Soft_12_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Soft\Footsteps_Dirt_Soft_12		5929
 	489163385	Footsteps_Dirt_Hard_07	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Hard_07_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Hard\Footsteps_Dirt_Hard_07		2009
@@ -82,6 +88,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	651397091	Footsteps_Dirt_Soft_11	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Soft_11_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Soft\Footsteps_Dirt_Soft_11		6774
 	658291249	Footsteps_Dirt_Soft_08	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Soft_08_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Soft\Footsteps_Dirt_Soft_08		6276
 	661328633	Footsteps_Dirt_Hard_02	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Hard_02_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Hard\Footsteps_Dirt_Hard_02		2754
+	683877010	Puzzle4_HappyBirthday_01	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Puzzle4_HappyBirthday_01_BBC0EE0C.wem		\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv\Puzzle 4\Puzzle4_HappyBirthday_01		217541
 	715787057	Amb_Drips_03	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Drips_03_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_03		53776
 	724761262	Amb_Drips_02	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Amb_Drips_02_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience\Base Amb\Water Drips\Amb_Drips_02		39481
 	733829973	Footsteps_Dirt_Hard_10	Z:\Volumes\Mac HDD 1\Dev\Unity Projects\NGJ22\WwiseProj\NGJ WwiseProject\.cache\Mac\SFX\Footsteps_Dirt_Hard_10_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Player_Step\Footsteps\Player_Footsteps_Hard\Footsteps_Dirt_Hard_10		2975

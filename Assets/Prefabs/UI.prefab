@@ -750,7 +750,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Sprite: {fileID: 0}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -783,6 +783,8 @@ MonoBehaviour:
   background: {fileID: 1530241364809510756}
   title: {fileID: 1530241363428523840}
   buttons: {fileID: 1596800733}
+  titleColor: {r: 0, g: 0, b: 0, a: 0}
+  backgroundColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!114 &1441231146
 MonoBehaviour:
   m_ObjectHideFlags: 0

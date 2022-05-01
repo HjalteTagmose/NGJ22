@@ -341,6 +341,64 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play" ID="{CF96C643-FA18-4110-88F7-9088E6702BCB}">
+					<ChildrenList>
+						<Action Name="" ID="{E8A550CA-7432-486C-8913-2B730BBAE8D4}" ShortID="16082395">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_Children_01" ID="{12CA34E2-8706-4962-8B4F-DBB8BF3C0C13}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4426F4B0-9266-44BE-80A2-EF99417AF138}" ShortID="471951760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_HappyBirthday_01" ID="{FD9439B8-A6C1-419B-9915-B7598D9AD705}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{BE5D0C24-E88E-4416-8084-3CA4A4724AE8}" ShortID="657838907">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_NiceAmbience_01" ID="{04586890-F9F5-48FB-B369-0699B41CA13D}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puzzle4_Children_01" ID="{21673D0D-1E09-4617-B017-B7EA1DB8112E}">
+					<ChildrenList>
+						<Action Name="" ID="{90EE10B5-B8A2-4D33-AB69-24C87E02E23F}" ShortID="427415505">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_Children_01" ID="{12CA34E2-8706-4962-8B4F-DBB8BF3C0C13}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puzzle4_HappyBirthday_01" ID="{969A64F4-2C05-4500-B18F-14216A774F2F}">
+					<ChildrenList>
+						<Action Name="" ID="{D231E4EF-E25A-4DA4-B795-59D6CD8EF1A0}" ShortID="780051724">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_HappyBirthday_01" ID="{FD9439B8-A6C1-419B-9915-B7598D9AD705}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Puzzle4_NiceAmbience_01" ID="{0DB2D17C-2AE0-416C-AD21-60B78C7B27CA}">
+					<ChildrenList>
+						<Action Name="" ID="{FE760F81-FA5A-49FF-BBB8-B27D219DABA5}" ShortID="624887112">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Puzzle4_NiceAmbience_01" ID="{04586890-F9F5-48FB-B369-0699B41CA13D}" WorkUnitID="{F5F0B685-5C11-4702-98DE-9D847D506881}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
