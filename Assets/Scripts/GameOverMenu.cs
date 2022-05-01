@@ -15,9 +15,15 @@ public class GameOverMenu : MonoBehaviour
     public TextMeshProUGUI title;
     public GameObject buttons;
 
+    Color titleColor;
+    Color backgroundColor;
+
     void Start()
     {
         start.Post(gameObject);
+
+        titleColor = title.color;
+        backgroundColor = background.color;
 
         title.color = Color.clear;
         background.color = Color.clear;
@@ -41,12 +47,10 @@ public class GameOverMenu : MonoBehaviour
     IEnumerator FadeIn()
     {
         float a = 0;
-        var titleColor = title.color;
-        var backgroundColor = background.color;
 
         while (a < 1)
         {
-            a += Time.deltaTime;
+            a += Time.deltaTime * 3;
 
             titleColor.a = a;
             backgroundColor.a = a;
@@ -54,7 +58,7 @@ public class GameOverMenu : MonoBehaviour
             title.color = titleColor;
             background.color = backgroundColor;
 
-            yield return new WaitForSeconds(0.1f);
+            yield return null;
         
             if (a > 0.5f && !buttons.activeInHierarchy)
                 buttons.SetActive(true);
