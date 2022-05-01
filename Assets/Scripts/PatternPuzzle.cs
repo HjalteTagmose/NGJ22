@@ -6,9 +6,12 @@ using Random = System.Random;
 
 public class PatternPuzzle : MonoBehaviour
 {
+    public Door winDoor;
     public PatternButton[] buttons;
     private int next = 0;
     private int buttonsPressed = 0;
+
+    public AK.Wwise.Event success, stop, fail;
 
     void Start()
     {
@@ -26,6 +29,7 @@ public class PatternPuzzle : MonoBehaviour
 
         for (int i = 0; i < buttons.Length; i++)
         {
+            if (i == 0) success.Post(buttons[i].gameObject);
             buttons[i].Setup(this, i);
         }
     }
@@ -41,7 +45,12 @@ public class PatternPuzzle : MonoBehaviour
         if (!finished) next = buttons[buttonsPressed].num;
 
         if (!correct)
+        {
+            fail.Post(buttons[buttonsPressed-1].gameObject);
             StartCoroutine(DelayedReset());
+        }
+        else if (correct && !finished)
+            success.Post(buttons[buttonsPressed].gameObject);
         else if (correct && finished)
             Win();
 
@@ -51,6 +60,8 @@ public class PatternPuzzle : MonoBehaviour
     private void Win()
     {
         print("PUZZLE SOLVED SIDJAOSIJDIOASJDOIASD");
+        winDoor.Unlock();
+        winDoor.Open();
     }
 
     IEnumerator DelayedReset()
