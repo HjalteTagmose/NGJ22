@@ -27,6 +27,7 @@ public class GameController : MonoBehaviour
 
     public void GameOver(string msg)
     {
+        print("gameOVERRR: " +msg);
         gameOverMenu.SetTitle(msg);
         gameOverMenu.Open();
     }
