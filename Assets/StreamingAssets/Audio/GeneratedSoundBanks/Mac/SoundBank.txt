@@ -3,12 +3,27 @@ Event	ID	Name			Wwise Object Path	Notes
 	109592986	Base_Ambience_Play			\Default Work Unit\Base_Ambience_Play	
 	112230054	Puzzle_3_Stop			\Default Work Unit\Puzzle_3_Stop	
 	1364036739	Generator_Stop			\Default Work Unit\Generator_Stop	
+	1521187885	StartGame			\Default Work Unit\GamePlay\StartGame	
 	2222680430	Puzzle_3_Fail			\Default Work Unit\Puzzle_3_Fail	
 	2509089944	PressurePlate			\Default Work Unit\PressurePlate	
 	2723208622	Puzzle_3_Next_Step			\Default Work Unit\Puzzle_3_Next_Step	
 	3157003241	Test			\Default Work Unit\Test	
 	3228222034	Player_Radiation			\Default Work Unit\Player_Radiation	
+	4264815106	EndGame			\Default Work Unit\GamePlay\EndGame	
 	4275927813	Generator_Play			\Default Work Unit\Generator_Play	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	4091656514	GameState			\Default Work Unit\GameState	
+
+State	ID	Name	State Group			Notes
+	748895195	None	GameState			
+	2044049779	Dead	GameState			
+	2798660212	Started	GameState			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	578079019	Dead	GameState	\Actor-Mixer Hierarchy\Default Work Unit\Base Ambience		
+	844323267	Dead	GameState	\Actor-Mixer Hierarchy\Default Work Unit\Player		
+	924018239	Dead	GameState	\Actor-Mixer Hierarchy\Default Work Unit\LevelEnv		
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	3880108918	RadioactiveLevel			\Default Work Unit\RadioactiveLevel	
