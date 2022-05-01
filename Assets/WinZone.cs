@@ -15,7 +15,8 @@ public class WinZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            menu.backgroundColor = Color.white; 
+            menu.backgroundColor = Color.white;
+            menu.titleColor = Color.gray;
             GameController.Instance.GameOver("You got out!");
         }
     }
