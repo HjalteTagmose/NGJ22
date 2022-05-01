@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731193, g: 0.38073996, b: 0.35872698, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5441,6 +5441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ThreeDoorRoom_medium
       objectReference: {fileID: 0}
+    - target: {fileID: 684392152874900108, guid: ac11abcea16cfb743b5b6662350a90cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.12
+      objectReference: {fileID: 0}
     - target: {fileID: 884028700223548437, guid: ac11abcea16cfb743b5b6662350a90cb, type: 3}
       propertyPath: m_RootOrder
       value: 53
@@ -5484,6 +5488,10 @@ PrefabInstance:
     - target: {fileID: 884028700223548437, guid: ac11abcea16cfb743b5b6662350a90cb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3764545765433428816, guid: ac11abcea16cfb743b5b6662350a90cb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.931
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ac11abcea16cfb743b5b6662350a90cb, type: 3}
@@ -5608,6 +5616,10 @@ PrefabInstance:
     - target: {fileID: 585459363597498320, guid: e22a400f49558134697b13b68091f5a9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2279581064512863271, guid: e22a400f49558134697b13b68091f5a9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.164
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e22a400f49558134697b13b68091f5a9, type: 3}
