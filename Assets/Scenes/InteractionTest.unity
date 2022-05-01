@@ -4568,6 +4568,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: MYPLAYER-notbadedition
       objectReference: {fileID: 0}
+    - target: {fileID: 3247186830721989631, guid: 72730583ecdcbf24284be653c64bf0ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3247186830721989631, guid: 72730583ecdcbf24284be653c64bf0ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588296765141192912, guid: 72730583ecdcbf24284be653c64bf0ed, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5588296765141192912, guid: 72730583ecdcbf24284be653c64bf0ed, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7503772977656551666, guid: 72730583ecdcbf24284be653c64bf0ed, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4691,6 +4707,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7007471876424166227, guid: 2701d5b7977238c4ab149878080779f6, type: 3}
+      propertyPath: isOpen
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7007471876424166227, guid: 2701d5b7977238c4ab149878080779f6, type: 3}
+      propertyPath: isLocked
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7400878695034457223, guid: 2701d5b7977238c4ab149878080779f6, type: 3}
       propertyPath: m_RootOrder
       value: 8
