@@ -15,7 +15,6 @@ public class DeathZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            menu.backgroundColor = Color.white;
             GameController.Instance.GameOver("You went to the wrong room");
         }
     }
