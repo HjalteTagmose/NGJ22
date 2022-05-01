@@ -14,6 +14,9 @@ GameObject:
   - component: {fileID: 5063262443275716620}
   - component: {fileID: 5718949837080009502}
   - component: {fileID: 5615269436702788595}
+  - component: {fileID: 1233537297052925389}
+  - component: {fileID: 7687192701560224}
+  - component: {fileID: 8039772762972283882}
   m_Layer: 0
   m_Name: Sound
   m_TagString: Untagged
@@ -130,6 +133,68 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1123431026069393382, guid: 6a61166d03491c54780b6a3409ae8b3f, type: 3}
+--- !u!114 &1233537297052925389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199564122695144244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fea29bb7c508c244a1f805a5fd3fc4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMode: 0
+  outlineColor: {r: 1, g: 1, b: 1, a: 1}
+  outlineWidth: 2
+  precomputeOutline: 0
+  bakeKeys: []
+  bakeValues: []
+--- !u!114 &7687192701560224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199564122695144244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd8148fea0a0b54c94c174f96db4b6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteract:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8039772762972283882}
+        m_TargetAssemblyTypeName: SimplePlaySound, Assembly-CSharp
+        m_MethodName: PlaySoundEvent
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &8039772762972283882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7199564122695144244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7b1918d0609a54d33809b4c37520d181, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventToPlay:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 51bcb0eb94fd54023a91594cfe7b0ec7, type: 2}
+  GameObjectToPlayFrom: {fileID: 0}
 --- !u!1 &9106842145326756637
 GameObject:
   m_ObjectHideFlags: 0
