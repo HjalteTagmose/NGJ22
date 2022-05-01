@@ -41,7 +41,7 @@ public class GameOverMenu : MonoBehaviour
 
     public void SetTitle(string msg)
     {
-        title.text = msg;
+        title.text = msg.ToUpper();
     }
 
     IEnumerator FadeIn()
