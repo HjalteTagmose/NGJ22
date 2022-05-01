@@ -16,6 +16,16 @@
 				</Event>
 				<Event Name="Base_Ambience_Play" ID="{66A6AD25-6812-42A4-87C1-EDC58EC55FBC}">
 					<ChildrenList>
+						<Action Name="" ID="{9065E7F8-118A-4E5C-8E30-4DDECD116CB4}" ShortID="874673617">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="StartGame" ID="{FD6AA0E3-F691-4226-B509-EC7FFA173087}" WorkUnitID="{E3FA4581-597B-418F-8B0C-3E8C4E24D7AA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 						<Action Name="" ID="{1755DC16-C3A4-4927-B934-D969BE755A4A}" ShortID="116685733">
 							<ReferenceList>
 								<Reference Name="Target">
